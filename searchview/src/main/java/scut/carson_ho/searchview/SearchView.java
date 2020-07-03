@@ -156,7 +156,7 @@ public class SearchView extends LinearLayout {
                     // 1. 点击搜索按键后，根据输入的搜索字段进行查询
                     // 注：由于此处需求会根据自身情况不同而不同，所以具体逻辑由开发者自己实现，此处仅留出接口
                     if (!(mCallBack == null)){
-                        mCallBack.SearchAciton(et_search.getText().toString());
+                        mCallBack.SearchAction(et_search.getText().toString());
                     }
                     Toast.makeText(context, "需要搜索的是" + et_search.getText(), Toast.LENGTH_SHORT).show();
 

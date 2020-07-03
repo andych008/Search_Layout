@@ -5,6 +5,6 @@ package scut.carson_ho.searchview;
  */
 
 public interface ICallBack {
-    void SearchAciton(String string);
+    void SearchAction(String string);
 
 }

@@ -30,7 +30,7 @@ public class SearchDemo extends AppCompatActivity {
         // 参数 = 搜索框输入的内容
         searchView.setOnClickSearch(new ICallBack() {
             @Override
-            public void SearchAciton(String string) {
+            public void SearchAction(String string) {
                 System.out.println("我收到了" + string);
             }
         });
